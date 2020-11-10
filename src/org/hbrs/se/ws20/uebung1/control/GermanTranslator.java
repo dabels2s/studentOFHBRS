@@ -8,16 +8,19 @@ public class GermanTranslator implements Translator {
 	 * Methode zur Übersetzung einer Zahl in eine String-Repraesentation
 	 */
 	public String translateNumber(int number){
-		String tmp ="„Übersetzung der Zahl " +number + " nicht möglich"+ version;
+		String tmp =" ";
+
 		try {
 			String[] a = new String[]{"eins", "zwei", "drei", "vier", "fünf", "sechs", "sieben", "acht", "neun", "zehn"};
-			String x = a[number - 1];
-			return x;
+			tmp = a[number - 1];
+
 		} catch (IndexOutOfBoundsException e){
-			System.out.println(tmp);
+			tmp= "Übersetzung der Zahl " +number + " nicht möglich"+ "(Version:"+ version+")"
+		}finally {
+			return tmp;
 		}
 
-		return tmp;
+
 	}
 	/**
 	 * Objektmethode der Klasse GermanTranslator zur Ausgabe einer Info.
