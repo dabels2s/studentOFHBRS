@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T10:10:12.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7fWuiOzOqXtZs0DiVuj3" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-13T10:17:59.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ijRCoDWndXqTxef4pjzD" version="13.9.3" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
             <mxPoint x="1060" y="890" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1130" y="685" />
-              <mxPoint x="1130" y="885" />
+              <mxPoint x="1130" y="841" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -167,16 +167,21 @@
         <mxCell id="sdpkfdGk7wIOjyx_IKUw-13" value="wenig kritischer Fehler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="720" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sdpkfdGk7wIOjyx_IKUw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="835" y="870" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-14" target="sdpkfdGk7wIOjyx_IKUw-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sdpkfdGk7wIOjyx_IKUw-14" value="Überarbeitung des FK &lt;br&gt;durch SA" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="765" y="760" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sdpkfdGk7wIOjyx_IKUw-16" value="PMO bereitet die &lt;br&gt;Abnahme vor" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="765" y="930" width="140" height="40" as="geometry" />
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-16" target="sdpkfdGk7wIOjyx_IKUw-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-16" value="PMO bereitet die &lt;br&gt;Abnahme vor [ohne Vorbehalt]" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="880" width="175" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sdpkfdGk7wIOjyx_IKUw-18" value="keine Fehler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="665" width="80" height="20" as="geometry" />
@@ -185,7 +190,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sdpkfdGk7wIOjyx_IKUw-19" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="870" width="30" height="30" as="geometry" />
+          <mxGeometry x="820" y="826" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdpkfdGk7wIOjyx_IKUw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-22" target="sdpkfdGk7wIOjyx_IKUw-9">
           <mxGeometry relative="1" as="geometry" />
@@ -203,6 +208,26 @@
         </mxCell>
         <mxCell id="sdpkfdGk7wIOjyx_IKUw-27" value="keine zeitliche Probleme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="660" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-30" target="sdpkfdGk7wIOjyx_IKUw-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="547.5" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="548" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-30" value="PMO bereitet die &lt;br&gt;Abnahme vor [mit Vorbehalt]" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="790" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-33" target="sdpkfdGk7wIOjyx_IKUw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-33" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="940" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-36" value="PMO gibt ein Abnahmeprotokoll mit Letter of&lt;br&gt;Acceptance an Stakeholder" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1020" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
