@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T09:52:27.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_1oatj8xm-v_JBz1k90R" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-13T10:05:20.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="k4wnx-L5jynRglZKMyA4" version="13.9.3" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -11,11 +11,11 @@
           <mxGeometry x="110" y="160" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaj02LCAdilDeVSlp9cG-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="210" y="670" width="30" height="30" as="geometry" />
+          <mxGeometry x="190" y="680" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaj02LCAdilDeVSlp9cG-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qaj02LCAdilDeVSlp9cG-49" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="175" as="targetPoint" />
+            <mxPoint x="390" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qaj02LCAdilDeVSlp9cG-49" value="&lt;span&gt;FK&lt;br&gt;wird von SA erstellt&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
@@ -115,8 +115,71 @@
         <mxCell id="qaj02LCAdilDeVSlp9cG-84" value="Übergabe von Kritiken&lt;br&gt;durch externer Gutachter&amp;nbsp;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="930" y="470" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qaj02LCAdilDeVSlp9cG-85" target="sdpkfdGk7wIOjyx_IKUw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qaj02LCAdilDeVSlp9cG-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#000000;strokeColor=none;direction=south;" parent="1" vertex="1">
           <mxGeometry x="715" y="540" width="240" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-1" target="sdpkfdGk7wIOjyx_IKUw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-1" value="PMO bereitet Reviews aus und &lt;br&gt;führt Gesamtbewertung aus" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="590" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-3" target="sdpkfdGk7wIOjyx_IKUw-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="685" />
+              <mxPoint x="1090" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-3" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="820" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-7" value="kritischer Fehler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="660" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-8" target="sdpkfdGk7wIOjyx_IKUw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-8" value="Überarbeitung des FK &lt;br&gt;durch SA" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="665" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-9" target="qaj02LCAdilDeVSlp9cG-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-9" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-13" value="wenig kritischer Fehler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="720" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdpkfdGk7wIOjyx_IKUw-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-14" value="Überarbeitung des FK &lt;br&gt;durch SA" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="765" y="760" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-16" value="PMO bereitet die &lt;br&gt;Abnahme vor" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="765" y="870" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sdpkfdGk7wIOjyx_IKUw-18" value="keine Fehler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="660" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
