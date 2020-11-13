@@ -1,4 +1,4 @@
-package org.hbrs.se.ws20.uebung1.view;
+package org.hbrs.se.ws20.uebung1.Factory;
 import org.hbrs.se.ws20.uebung1.control.GermanTranslator;
 /**
  * Realsierung einer Factory gemaess des Musters
@@ -9,6 +9,8 @@ import org.hbrs.se.ws20.uebung1.control.GermanTranslator;
 
 public class Factory{
     public static GermanTranslator createGermanTranslator(){
-        return new GermanTranslator();
+        GermanTranslator gt = new GermanTranslator();
+        gt.setDate("Nov/2020");
+        return gt;
     }
 }

@@ -1,5 +1,5 @@
 package org.hbrs.se.ws20.uebung1.view;
-import org.hbrs.se.ws20.uebung1.view.Factory;
+import org.hbrs.se.ws20.uebung1.Factory.Factory;
 import org.hbrs.se.ws20.uebung1.control.GermanTranslator;
 import org.hbrs.se.ws20.uebung1.control.Translator;
 public class Client extends GermanTranslator {
