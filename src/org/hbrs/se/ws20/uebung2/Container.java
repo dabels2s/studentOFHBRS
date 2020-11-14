@@ -63,6 +63,8 @@ public class Container{
                         System.out.println("ID: " + p.getID());
                 }
         }
-
+        public int size(){
+                return liste.size();
+        }
 
 }
