@@ -29,10 +29,10 @@ public class ContainerTest {
                 return null;
             }
         };
-        Member r2 = new Member(32);
-        Member r3 = new Member(112);
-        Member r4 = new Member(1211);
-        Member r5 = new Member(934);
+        Member r2 = new Member(22);
+        Member r3 = new Member(25);
+        Member r4 = new Member(11);
+        Member r5 = new Member(94);
 
         // Den Container anlegen
         Container test = new Container();
