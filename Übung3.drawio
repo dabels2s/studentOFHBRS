@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T09:45:53.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="RQsbvamSNJfr5MgqNozi" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T09:49:15.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="WjohpfbbYI6ByjzH7bjt" version="13.10.0" type="github">
   <diagram id="fH02EhWVe4zG2VkzPRTq" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,6 +72,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="eLBkmYkiiRd03wH__Cpo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eLBkmYkiiRd03wH__Cpo-19" target="eLBkmYkiiRd03wH__Cpo-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eLBkmYkiiRd03wH__Cpo-19" value="Anforderung wird in das Selektierte&lt;br&gt;Produkt Backlog gelegt" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="650" width="190" height="40" as="geometry" />
         </mxCell>
@@ -100,8 +103,15 @@
         <mxCell id="eLBkmYkiiRd03wH__Cpo-28" value="Ergebnisse des vorherigen Sprints&lt;br&gt;werden betrachtet" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="345" y="800" width="190" height="37.5" as="geometry" />
         </mxCell>
+        <mxCell id="eLBkmYkiiRd03wH__Cpo-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eLBkmYkiiRd03wH__Cpo-31" target="eLBkmYkiiRd03wH__Cpo-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eLBkmYkiiRd03wH__Cpo-31" value="Sprintziel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="300" width="80" height="80" as="geometry" />
+          <mxGeometry x="690" y="300" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eLBkmYkiiRd03wH__Cpo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eLBkmYkiiRd03wH__Cpo-33" target="eLBkmYkiiRd03wH__Cpo-7">
           <mxGeometry relative="1" as="geometry" />
@@ -169,6 +179,18 @@
         </mxCell>
         <mxCell id="eLBkmYkiiRd03wH__Cpo-63" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="425" y="1020" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eLBkmYkiiRd03wH__Cpo-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eLBkmYkiiRd03wH__Cpo-64" target="eLBkmYkiiRd03wH__Cpo-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="1090" />
+              <mxPoint x="325" y="1090" />
+              <mxPoint x="325" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eLBkmYkiiRd03wH__Cpo-64" value="Selektiertes Produkt&amp;nbsp; Backlog" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="630" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
