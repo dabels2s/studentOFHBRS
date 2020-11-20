@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T08:08:35.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="13.10.0" etag="LrF7O8BgW5cS7OMoOfWC" type="github"><diagram id="fH02EhWVe4zG2VkzPRTq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-20T08:21:24.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="qHX4O34vuV28ffEKtOzy" version="13.10.0" type="github">
+  <diagram id="fH02EhWVe4zG2VkzPRTq" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eLBkmYkiiRd03wH__Cpo-1" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eLBkmYkiiRd03wH__Cpo-2" value="PO stellt die Agenda &lt;br&gt;des Meetings vor" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eLBkmYkiiRd03wH__Cpo-3" value="Legende&lt;br&gt;PO=Product Owner" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry y="25" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
