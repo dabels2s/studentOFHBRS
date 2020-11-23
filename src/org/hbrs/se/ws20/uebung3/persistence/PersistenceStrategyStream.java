@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.List;
 
 public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Member> {
-    public final static String LOCATION = "/Users//Dokumente Local/Software Projects/SE/userstories18.ser";
+    public final static String LOCATION = "/Users/abels/OneDrive/Desktop/Test";
     @Override
     public void openConnection() throws PersistenceException {
 
@@ -31,9 +31,6 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
             System.out.println(  list.size() + " Member wurden erfolgreich gespeichert!");
         }
         catch (IOException e) {
-            // Koennte man ausgeben für interne Debugs: e.printStackTrace();
-            // Chain of Responsibility: Hochtragen der Exception in Richtung Ausgabe (UI)
-            // Uebergabe in ein lesbares Format fuer den Benutzer
             throw new PersistenceException();
         }
         finally {
@@ -71,24 +68,19 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
         try {
             fis = new FileInputStream( PersistenceStrategyStream.LOCATION );
             ois = new ObjectInputStream(fis);
-
-            // Auslesen der Liste
             Object obj = ois.readObject();
             if (obj instanceof List<?>) {
                 list = (List) obj;
 
             }
-            System.out.println("Es wurden " + list.size() + " User Stories erfolgreich reingeladen!");
+            System.out.println("Es wurden " + list.size() + " Member erfolgreich reingeladen!");
             return list;
         }
         catch (IOException e) {
-            // Sup-Optimal, da Exeception in Form eines unlesbaren Stake-Traces ausgegeben wird
             e.printStackTrace();
         }
         catch (ClassNotFoundException e) {
-            // Verbesserung, aber Chain of Responsbility nicht erfuellt, da UI nicht
-            // benachrichtigt wird unter Umstaenden. Verbesserung: siehe Methoden store!
-            System.out.println("FEHLER: Liste konnte nicht extrahiert werden (ClassNotFound)!");
+            throw new PersistenceException();
         }
         finally {
             if (ois != null) try { ois.close(); } catch (IOException e) {}

@@ -21,6 +21,6 @@ public class PersistenceStrategyMongoDB<Member> implements PersistenceStrategy<M
 
     @Override
     public List<Member> load() {
-        throw new java.lang.UnsupportedOperationException("Not implemented!");
+        throw new java.lang.UnsupportedOperationException("Fehler: Liste konnte nicht extrahiert werden (ClassNotFound)!");
     }
 }
