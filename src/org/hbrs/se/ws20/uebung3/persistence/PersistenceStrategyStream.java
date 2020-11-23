@@ -42,7 +42,7 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
     @Override
     /**
      * Method for loading a list of Member-objects from a disk (HDD)
-     * Some coding examples come for free :-)
+     * Some coding examples come for free :-);
      */
     public List<Member> load() throws PersistenceException  {
         // Some Coding hints ;-)
