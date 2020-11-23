@@ -1,4 +1,4 @@
-package org.hbrs.se.ws20.solutions.uebung2;
+package org.hbrs.se.ws20.uebung2;
 
 public class MemberKonkret implements Member {
 	

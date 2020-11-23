@@ -1,6 +1,6 @@
-package org.hbrs.se.ws20.solutions.uebung1.view;
+package org.hbrs.se.ws20.uebung1.view;
 
-import org.hbrs.se.ws20.solutions.uebung1.control.Translator;
+import org.hbrs.se.ws20.uebung1.control.Translator;
 
 public class ClientAlt {
 

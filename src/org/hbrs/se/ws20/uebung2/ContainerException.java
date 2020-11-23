@@ -1,14 +1,21 @@
 package org.hbrs.se.ws20.uebung2;
 
 public class ContainerException extends Exception {
-    private Integer id;
+	
+	// Eigentlich nicht notwendig, für den Fall einer Serialisierung 
+	private static final long serialVersionUID = 2656959703434537144L;
+	
+	private Integer id;
 
-    @Override
-    public void printStackTrace() {
-        System.out.println("Das Member-Objekt mit der ID " + this.id + " ist bereits vorhanden!");
-    }
+	@Override
+	public void printStackTrace() {
+		// TODO Auto-generated method stub
+		System.out.println("Das Member-Objekt mit der ID " + this.id + " ist bereits vorhanden!"); 
+	} 
 
-    public void addID(Integer id) {
-        this.id = id;
-    }
+	public void addID(Integer id) {
+		this.id = id;
+	}
+
+
 }

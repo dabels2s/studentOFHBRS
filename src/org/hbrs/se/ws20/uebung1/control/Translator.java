@@ -1,31 +1,16 @@
 package org.hbrs.se.ws20.uebung1.control;
 
 /**
- * Das Translator Interface. Die Anzahl der Methoden ist fix
- * und darf NICHT erweitert werden. Sichtbarkeiten der Methoden koennen
- * unter Umstaenden angepasst werden.
- *
+ * Interface fuer Translator-Objekte, muss auf jeden Fall auf public gesetzt werden, sonst nicht sichtbar
+ * fuer andere Packages
  * @author saschaalda
  *
  */
-
 public interface Translator {
+	
+	public double version = 1.0; 
+	
+	public String translateNumber(int number);
 
-	double version = 1.0; // Version des Interface
-
-	/*
-	 * Uebersetzt eine numerische Zahl in eine String-basierte
-	 * Repraesentation gemaess der Spezifikation in der Aufgabe 1-2
-	 */
-	String translateNumber(int number);
-
-}
-
-
-
-
-
-
-
-
-
+} 
+ 

@@ -1,4 +1,4 @@
-package org.hbrs.se.ws20.solutions.uebung2;
+package org.hbrs.se.ws20.uebung2;
 
 import java.util.ArrayList;
 import java.util.List;
