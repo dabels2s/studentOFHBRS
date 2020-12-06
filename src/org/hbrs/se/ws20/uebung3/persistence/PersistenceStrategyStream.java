@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.List;
 
 public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Member> {
-    public final static String LOCATION = "/Users/abels/OneDrive/Desktop/Test";
+    public final static String LOCATION = "/Users//Dokumente Local/Software Projects/SE/userstories18.ser";
     @Override
     public void openConnection() throws PersistenceException {
 
@@ -31,6 +31,9 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
             System.out.println(  list.size() + " Member wurden erfolgreich gespeichert!");
         }
         catch (IOException e) {
+            // Koennte man ausgeben für interne Debugs: e.printStackTrace();
+            // Chain of Responsibility: Hochtragen der Exception in Richtung Ausgabe (UI)
+            // Uebergabe in ein lesbares Format fuer den Benutzer
             throw new PersistenceException();
         }
         finally {
@@ -42,7 +45,7 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
     @Override
     /**
      * Method for loading a list of Member-objects from a disk (HDD)
-     * Some coding examples come for free :-);
+     * Some coding examples come for free :-)
      */
     public List<Member> load() throws PersistenceException  {
         // Some Coding hints ;-)
@@ -68,19 +71,24 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
         try {
             fis = new FileInputStream( PersistenceStrategyStream.LOCATION );
             ois = new ObjectInputStream(fis);
+
+            // Auslesen der Liste
             Object obj = ois.readObject();
             if (obj instanceof List<?>) {
                 list = (List) obj;
 
             }
-            System.out.println("Es wurden " + list.size() + " Member erfolgreich reingeladen!");
+            System.out.println("Es wurden " + list.size() + " User Stories erfolgreich reingeladen!");
             return list;
         }
         catch (IOException e) {
+            // Sup-Optimal, da Exeception in Form eines unlesbaren Stake-Traces ausgegeben wird
             e.printStackTrace();
         }
         catch (ClassNotFoundException e) {
-            throw new PersistenceException();
+            // Verbesserung, aber Chain of Responsbility nicht erfuellt, da UI nicht
+            // benachrichtigt wird unter Umstaenden. Verbesserung: siehe Methoden store!
+            System.out.println("FEHLER: Liste konnte nicht extrahiert werden (ClassNotFound)!");
         }
         finally {
             if (ois != null) try { ois.close(); } catch (IOException e) {}

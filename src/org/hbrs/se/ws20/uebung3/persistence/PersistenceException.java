@@ -8,7 +8,7 @@ public class PersistenceException extends Exception {
         return this.exceptionType;
     }
 
-    public PersistenceException() {
+    public PersistenceException( ExceptionType exceptionType, String message) {
         super(message);
         this.exceptionType = exceptionType;
     }
