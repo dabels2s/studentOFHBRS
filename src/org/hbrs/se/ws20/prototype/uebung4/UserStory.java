@@ -4,8 +4,8 @@ package org.hbrs.se.ws20.prototype.uebung4;
  * Klasse UserStory, repräsentiert ein langlebiges Entity, welches persistiert wird
  */
 
-public class UserStory implements java.io.Serializable, Comparable {
-	
+public abstract class UserStory implements java.io.Serializable, Comparable {
+
 	private String titel;
 	private int aufwand = 0;
 	private int id = 0;
@@ -24,7 +24,7 @@ public class UserStory implements java.io.Serializable, Comparable {
 		this.strafe = strafe;
 		this.aufwand = aufwand;
 		this.risk = risk;
-		this.prio = prio; 
+		this.prio = prio;
 	}
 	
 	public UserStory( int id ){
@@ -76,10 +76,28 @@ public class UserStory implements java.io.Serializable, Comparable {
 		this.strafe = strafe;
 	}
 
+	//Berechnung der Priorisierung gemäß der Formel nach Gloger
+	public static double calcPrio(int mehrwert, int strafe, int risiko, int aufwand){
+		if(mehrwert > 0 & strafe > 0 & risiko > 0 & aufwand > 0 ){
+			return ((double) (mehrwert + strafe)) / ((double) (aufwand + risiko));
+		}else{
+			throw new IllegalArgumentException();
+		}
 
-	@Override
-	public int compareTo(Object o) {
-		return 0; // Prio
-		// -1, 1,0
 	}
+
+
+	public int compareTo(UserStory o) {
+		if (prio == o.prio) {
+			return 0;
+		} else if (prio < o.prio) {
+			return 1;
+		}
+		return -1;
+	}
+	//Ausgabe als Tabelle
+	public String toString() {
+		return "UserStoryID: " + id + "\n" + "Titel: " + titel + "\n" + "Priorität: " + prio;
+	}
+
 }
