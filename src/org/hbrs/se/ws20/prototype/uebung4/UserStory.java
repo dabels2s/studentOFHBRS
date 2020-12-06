@@ -87,6 +87,7 @@ public abstract class UserStory implements java.io.Serializable, Comparable {
 	}
 
 
+
 	public int compareTo(UserStory o) {
 		if (prio == o.prio) {
 			return 0;
