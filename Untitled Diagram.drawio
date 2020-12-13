@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T10:35:03.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6nmNLhOsRlMEvaamYjry" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-13T10:41:36.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Cvq5bpQsx6lZ5XuamnpR" version="14.0.1" type="github">
   <diagram id="Idni9gt48yzOjo8QUFbK" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="500" y="410" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I6kVfwnH48Mdd5yuerV_-13" value="Suchanfragen eintragen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="520" width="110" height="50" as="geometry" />
+          <mxGeometry x="290" y="475" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I6kVfwnH48Mdd5yuerV_-14" value="Unternehmen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="590" width="110" height="50" as="geometry" />
@@ -74,6 +74,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="363.75" y="180" as="sourcePoint" />
             <mxPoint x="490" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I6kVfwnH48Mdd5yuerV_-24" value="Fachkompetenzen verwaltet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6kVfwnH48Mdd5yuerV_-25" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.364;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I6kVfwnH48Mdd5yuerV_-24" target="I6kVfwnH48Mdd5yuerV_-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
