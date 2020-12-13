@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T12:00:15.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tYxqvHKrFnofjN7ykGk7" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-13T12:03:07.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0X5cogudKbWAKM9YGGk1" version="14.0.1" type="github">
   <diagram id="Idni9gt48yzOjo8QUFbK" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2BaVzF96S5Z35MbNFWjq-6" value="Stammdaten von Studenten extrahieren und verwalten" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2BaVzF96S5Z35MbNFWjq-6" value="Stammdaten von Studenten verwalten und extrahieren" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="357.5" y="552" width="130" height="65" as="geometry" />
         </mxCell>
         <mxCell id="2BaVzF96S5Z35MbNFWjq-8" value="Verwalte Bewerbungen von Studenten" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -124,8 +124,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2BaVzF96S5Z35MbNFWjq-10" value="Sende Reports über neue Bewerbungen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="437.5" width="120" height="55" as="geometry" />
+        <mxCell id="2BaVzF96S5Z35MbNFWjq-10" value="Schicke Reports über neue Bewerbungen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="120" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="2BaVzF96S5Z35MbNFWjq-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2BaVzF96S5Z35MbNFWjq-10" target="2BaVzF96S5Z35MbNFWjq-6">
           <mxGeometry relative="1" as="geometry">
