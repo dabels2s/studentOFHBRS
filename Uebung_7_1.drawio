@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T13:35:31.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="1n3HhYbkVwMACgWtMJpz" type="github"><diagram id="JIRKh9Ys8aaqIIHA9N6L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-06T13:57:26.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tbeCnMLICNXIrnaOHITa" version="14.1.1" type="github">
+  <diagram id="JIRKh9Ys8aaqIIHA9N6L" name="Page-1">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-1" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-5" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-6" target="Cs9-FnLeX_EBylNOj1fo-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="700" />
+              <mxPoint x="460" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-6" target="Cs9-FnLeX_EBylNOj1fo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-16" value="init&amp;amp;kontrolliert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cs9-FnLeX_EBylNOj1fo-15">
+          <mxGeometry x="-0.32" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-6" target="Cs9-FnLeX_EBylNOj1fo-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-6" value="&lt;control&gt;&#xa;Jobangebotsuche" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-10" value="&lt;control&gt;&#xa;Verwaltung Suchanfragen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="740" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-11" target="Cs9-FnLeX_EBylNOj1fo-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="570" />
+              <mxPoint x="430" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-13" value="liefert_suchauftrag" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cs9-FnLeX_EBylNOj1fo-12">
+          <mxGeometry x="0.4296" y="3" relative="1" as="geometry">
+            <mxPoint x="-73" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-11" target="Cs9-FnLeX_EBylNOj1fo-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="680" />
+              <mxPoint x="125" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-11" value="&lt;boundary&gt;&#xa;SucheDialog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="580" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-17" value="&lt;DTO&gt;&#xa;SuchAuftrag" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="760" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-20" value="erstellt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="680" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-21" value="liest_aus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="770" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-23" target="Cs9-FnLeX_EBylNOj1fo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-23" value="&lt;entity&gt;&#xa;Student" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-24" value="&lt;entity&gt;&#xa;JobAngebot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="770" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;endArrow=classic;endFill=1;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-26" target="Cs9-FnLeX_EBylNOj1fo-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-26" value="x..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-29" value="x..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="700" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-31" value="&lt;boundary&gt;&#xa;ErgebnisSeite" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-32" target="Cs9-FnLeX_EBylNOj1fo-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-32" value="Jobangebot suchen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-33" value="Verwaltung von Suchanfragen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cs9-FnLeX_EBylNOj1fo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-1" target="Cs9-FnLeX_EBylNOj1fo-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.5" y="490" as="sourcePoint" />
+            <mxPoint x="479.5" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="320" />
+              <mxPoint x="150" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
