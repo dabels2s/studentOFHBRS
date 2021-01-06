@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T13:57:26.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tbeCnMLICNXIrnaOHITa" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-06T13:59:10.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NepG8zvRNi4JnMFsN9vC" version="14.1.1" type="github">
   <diagram id="JIRKh9Ys8aaqIIHA9N6L" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,9 +84,6 @@
         </mxCell>
         <mxCell id="Cs9-FnLeX_EBylNOj1fo-24" value="&lt;entity&gt;&#xa;JobAngebot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="630" y="770" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Cs9-FnLeX_EBylNOj1fo-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;endArrow=classic;endFill=1;" edge="1" parent="1" source="Cs9-FnLeX_EBylNOj1fo-26" target="Cs9-FnLeX_EBylNOj1fo-29">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cs9-FnLeX_EBylNOj1fo-26" value="x..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="750" width="40" height="20" as="geometry" />
