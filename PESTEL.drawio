@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T13:50:25.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" version="14.1.8" etag="68VpBs4pwSqqjX-5OhwN" type="github"><diagram id="C_6ZJ03SWN_iEjqzBwIq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-03T14:02:08.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="tpGKAtczLwikcC2NJT8G" version="14.1.8" type="github">
+  <diagram id="C_6ZJ03SWN_iEjqzBwIq" name="Page-1">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="so1WtHk12sFWgAz5aBNL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="so1WtHk12sFWgAz5aBNL-1" target="so1WtHk12sFWgAz5aBNL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="so1WtHk12sFWgAz5aBNL-1" target="so1WtHk12sFWgAz5aBNL-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.436;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="so1WtHk12sFWgAz5aBNL-1" target="so1WtHk12sFWgAz5aBNL-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="391" y="150" />
+              <mxPoint x="391" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="so1WtHk12sFWgAz5aBNL-1" target="so1WtHk12sFWgAz5aBNL-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="so1WtHk12sFWgAz5aBNL-1" target="so1WtHk12sFWgAz5aBNL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-1" value="Faktoren der weiteren Unternehmens-&lt;br&gt;umwelt" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-2" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Politisch-rechtliche Faktoren&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;-&lt;span&gt;umfasst die von staatlicher Seite&amp;nbsp;&lt;/span&gt;&lt;span&gt;vorgegebenen Rahmenbedingungen&lt;br&gt;&lt;/span&gt;&lt;span&gt;Bsp.:&lt;br&gt;-Datenschutzvorschriften&lt;br&gt;-De-/Regulierung von Märkten&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="210" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-3" value="&lt;div&gt;&lt;b&gt;Ökonomische Faktoren&lt;/b&gt;&lt;br&gt;&lt;/div&gt;-&lt;span&gt;umfasst&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;die gesamtwirtschaftliche&lt;/span&gt;&lt;span&gt;&lt;div&gt;Situation und Entwicklung&lt;/div&gt;&lt;/span&gt;&lt;span&gt;Bsp.:&lt;br&gt;-&amp;nbsp;Entwicklung der digitalen Wirtschaft&lt;br&gt;-Entwicklung des Bruttoinlandsproduktes&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-4" value="&lt;div&gt;&lt;b&gt;Technologische Faktoren&lt;/b&gt;&lt;br&gt;&lt;/div&gt;-&lt;span&gt;umfasst die relevanten technologischen&lt;/span&gt;&lt;span&gt;&lt;div&gt;Veränderungen&lt;/div&gt;Bsp.:&lt;br&gt;- Entwicklungen im Bereich der Digitalisierung (z.B. AI)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-5" value="&lt;div&gt;&lt;b&gt;Sozio-kulturelle Faktoren&lt;/b&gt;&lt;br&gt;&lt;/div&gt;-&lt;span&gt;umfasst die&amp;nbsp;&lt;/span&gt;&lt;span&gt;gesellschaftlichen Rahmen&lt;/span&gt;&lt;span&gt;bedingungen&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;Bsp.:&lt;br&gt;- Wertewandel&lt;br&gt;-Veränderung des Konsumverhaltens&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="so1WtHk12sFWgAz5aBNL-6" value="&lt;div&gt;&lt;b&gt;Ökologische Faktoren&lt;/b&gt;&lt;br&gt;&lt;/div&gt;-&lt;span&gt;&lt;/span&gt;&lt;span&gt;umfasst die natürlichen Umwelt&lt;/span&gt;&lt;span&gt;bedingungen&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;Bsp.:&lt;br&gt;- Klimawandel&lt;br&gt;-Verfügbarkeit von Rohstoffen&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="650" y="210" width="140" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
