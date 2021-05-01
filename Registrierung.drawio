@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-01T13:50:32.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Nv-ZoMCViMl9Rb72QbBU" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-01T13:52:41.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="aL4CD3Y_24N_-ecntYE8" version="14.5.1" type="github">
   <diagram id="oVhLaVOlyiM6lTpuab6-" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,8 +47,8 @@
         <mxCell id="GUcsQmOk6ZeP6T5s7R3m-13" value="Coll@HBRS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GUcsQmOk6ZeP6T5s7R3m-14" value="Daniel Abels&amp;nbsp; SE 2 Übungsblatt 2&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="200" height="20" as="geometry" />
+        <mxCell id="GUcsQmOk6ZeP6T5s7R3m-14" value="Daniel Abels, Matrikelnr.: 9033588,&amp;nbsp; SE 2 Übungsblatt 2&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry y="30" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GUcsQmOk6ZeP6T5s7R3m-15" value="«dto»&lt;br&gt;&lt;b&gt;User DTO&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="660" width="110" height="50" as="geometry" />
